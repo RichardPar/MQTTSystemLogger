@@ -25,8 +25,8 @@ int main(int argc, char** argv)
     generate_uid(UID);
     
     printf("UID is %s\r\n",UID);
-    strcpy(VENDOR,"BT");
-    strcpy(PRODUCT,"T2100");
+    strcpy(VENDOR,"MINE");
+    strcpy(PRODUCT,"LINUXBOXEN");
     
     mqtt_initfuncs();
     mqtt_connect(ADDRESS,CLIENTID);
